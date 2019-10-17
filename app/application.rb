@@ -1,5 +1,8 @@
 class Application
   
   def call(env)
-    if Time.now >= 
+    time = Time.new
+    
+    if time.hour >= 12
+      write
   end
